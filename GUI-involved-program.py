@@ -1,5 +1,12 @@
 #CREATION OF GUI
+from tkinter import *
 #Create the main window that will be appear on the screen 
+file = Tk()
+file.geometry("325x300")
+file.configure(bg="#F1F6F5")
+file.title("My Diary")
+
+mainloop()
 #Create the header and labels that instructs the user what to enter
 #Create text box where the user will input their entry
 #Create necessary buttons
