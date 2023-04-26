@@ -21,9 +21,18 @@ entry_date_input = Entry(width="48")
 entry_date_input.place(x=10,y=80, width=301, height=25)
 entry_text_input = Entry(width="48")
 entry_text_input.place(x=10,y=130, width=301, height=25)
-mainloop()
-#Create necessary buttons
 
+#Create necessary buttons
+button = Button(file,text="Submit", command=save_entries, width="32", height="1", bg="#71ADB5", fg="white", font=("courier new", 11, "bold"))
+button.place(x=11, y=185)
+
+button = Button(file,text="I want to write more", command=try_again, width="32", height="1", bg="#176D81", fg="white", font=("courier new", 11, "bold"))
+button.place(x=11, y=220)
+
+button = Button(file,text="Quit", command=close, width="32", height="1", bg="#0D3446", fg="white", font=("courier new", 11, "bold"))
+button.place(x=11, y=255)
+
+mainloop()
 #CREATION OF COMMANDS FOR THE BUTTONS TO FOLLOW
 #Ask user to input their entry in the 
 #1st COMMAND: Get the entries inputted by the user
