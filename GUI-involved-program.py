@@ -16,11 +16,12 @@ entry_date_text.place(x=10, y=55)
 entry_text_label = Label(text="How was your day?", fg="teal", bg="#F1F6F5", font=("courier new", 14, "bold"))
 entry_text_label.place(x=10, y=105)
 
-mainloop()
-
-
-
 #Create text box where the user will input their entry
+entry_date_input = Entry(width="48")
+entry_date_input.place(x=10,y=80, width=301, height=25)
+entry_text_input = Entry(width="48")
+entry_text_input.place(x=10,y=130, width=301, height=25)
+mainloop()
 #Create necessary buttons
 
 #CREATION OF COMMANDS FOR THE BUTTONS TO FOLLOW
