@@ -6,8 +6,20 @@ file.geometry("325x300")
 file.configure(bg="#F1F6F5")
 file.title("My Diary")
 
-mainloop()
 #Create the header and labels that instructs the user what to enter
+#HEADER
+heading = Label(text="Dear Diary...", fg="#176D81", bg="#F1F6F5", width="450",height="1", font=("courier new", 20, "bold"))
+heading.pack(padx=5, pady=(5, 20))
+#LABELS
+entry_date_text = Label(text="Entry Date:", fg="teal", bg="#F1F6F5", font=("courier new", 14, "bold"))
+entry_date_text.place(x=10, y=55)
+entry_text_label = Label(text="How was your day?", fg="teal", bg="#F1F6F5", font=("courier new", 14, "bold"))
+entry_text_label.place(x=10, y=105)
+
+mainloop()
+
+
+
 #Create text box where the user will input their entry
 #Create necessary buttons
 
