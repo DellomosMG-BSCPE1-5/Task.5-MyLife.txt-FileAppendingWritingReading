@@ -2,7 +2,12 @@
 #into a text file mylife.txt
 
 #Define a function 
-#Open a text file named mylife.txt (append)
+def entry_writing():
+    #Open a text file named mylife.txt (append)
+    with open("mylife.txt") as main_file:
+        for line in main_file:
+            print(line)
+entry_writing()
 #Ask user for a line text input
 #Append/write the input text to mylife.txt file
 #Ask the user if he/she wants to enter a line of text again
