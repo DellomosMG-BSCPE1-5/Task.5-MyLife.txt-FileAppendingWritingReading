@@ -27,3 +27,5 @@ Running this program in the terminal, a small window will appear. Note! do not e
 * Tkinter
 
 ### Links and Source
+* https://youtu.be/CKeFRDXYwcA
+* https://www.geeksforgeeks.org/how-to-close-a-tkinter-window-with-a-button/
