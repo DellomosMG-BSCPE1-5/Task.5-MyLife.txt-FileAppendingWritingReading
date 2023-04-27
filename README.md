@@ -23,9 +23,11 @@ The main code will run in the terminal where the user will input the required te
 ### How it works
 Running this program in the terminal, a small window will appear. Note! do not expand the window for better experience. In this window, you will see two entry boxes and three buttons. In these entry boxes, the user will input their entries. Clicking the "Submit" button, the entries will be append/write/forwarded to the mylife.txt. Clicking the "I want to write more" button, on the other hand, the previous entry will be cleared and the entry boxes are ready for filling out again. If the user wants to exit the window, just click the "Quit" button.
 
-### Module/s Used: 
+### Module/s Used 
 * Tkinter
 
-### Links and Source
+### Links and Sources
 * https://youtu.be/CKeFRDXYwcA
 * https://www.geeksforgeeks.org/how-to-close-a-tkinter-window-with-a-button/
+* https://pythonexamples.org/python-tkinter-window-background-color/#5
+* https://github.com/codefirstio/modern-todo-tkinter/blob/main/gui.py
